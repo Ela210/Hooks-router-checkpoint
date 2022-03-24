@@ -26,7 +26,7 @@ function Add({ addMovie }) {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Add new city</Modal.Title>
+          <Modal.Title>Add new Movie</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <label htmlFor="Title">Title</label>

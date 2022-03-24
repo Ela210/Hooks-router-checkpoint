@@ -10,7 +10,7 @@ console.log(Search);
    
   return (
     <div>
-  <Form.Control type="nom"placeholder="lawej"
+  <Form.Control type="nom"placeholder="Search"
     onChange={(e) => setSearch(e.target.value)}
     />
     <br/>

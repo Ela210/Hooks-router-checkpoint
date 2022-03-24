@@ -1,7 +1,10 @@
 .App {
   text-align: center;
-  background-image: url(https://previews.123rf.com/images/onyxprj/onyxprj1810/onyxprj181001446/109434141-cinema-pattern-seamless-background-with-symbols-of-cinema-and-films-production-vector-cinema-product.jpg);
+  background-image: url(https://img.freepik.com/free-photo/arrangement-film-elements-red-background-with-copy-space_23-2148457861.jpg?size=626&ext=jpg);
 }
 .color {
-  color: rgb(255, 180, 167);
+  color: rgb(24, 22, 22);
+}
+.colour {
+  background-color: rgb(100, 90, 89);
 }
