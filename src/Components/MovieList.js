@@ -14,8 +14,10 @@ const MovieList = ({input}) => {
       <Add addMovie={addMovie}/>
       <div style={{display:"flex" , flexWrap:"wrap" ,justifyContent:"space-around" ,margin:"20px" ,padding:"10px" }}>
         
-      {movies.filter(el=>el.Title.toLowerCase().includes(input.toLowerCase())).map((el) => (
+      {movies.filter(el=>el.Title.toLowerCase().includes(input.toLowerCase()) || el.Rate>= input).map((el) => (
+        
     <MovieCard Move={el}/>
+    
     ))}
       
       

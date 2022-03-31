@@ -33,22 +33,25 @@ function Add({ addMovie }) {
           <input
             type="text"
             placeholder="add movie name"
+            
             onChange={(e) => setTitle(e.target.value)}
           />
+       <br/>
           <label htmlFor="description">Description</label>
-          <br />
           <input
             type="text"
             placeholder="add movie description"
             onChange={(e) => setDescription(e.target.value)}
           />
+          <br/>
           <label htmlFor="Rate">Rate</label>
-          <br />
+     
           <input
             type="text"
             placeholder="add Rate"
             onChange={(e) => setRate(e.target.value)}
           />
+          <br/>
           <label htmlFor="PosterUrl">PosterUrl</label>
           <input
             type="text"
